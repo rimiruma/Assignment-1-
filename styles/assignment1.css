@@ -13,7 +13,7 @@
     font-size: 20px;
     border: none;
     padding: 18px 35px;
-    border-radius: 5px;
+    border-radius: 35px;
   }
 
   nav{
@@ -21,6 +21,7 @@
     align-items: center;
     justify-content: space-between;
     margin: 0px 200px;
+
 }
 
 .nav-title{
@@ -47,5 +48,14 @@
 .banner{
     border: 2px solid red;
     height: 300px;
-    margin-top: 80px;
+    margin-top: 10%;
 }
+
+.btn{
+    
+   margin-left: 550px;
+}
+
+/* .nav-content{
+margin-top: 20px;
+} */
