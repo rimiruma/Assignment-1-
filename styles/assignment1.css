@@ -26,3 +26,26 @@
 .nav-title{
     color: #4E47FF;
 }
+
+.header{
+    background-image: url('../Assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    height: 600px;
+  }
+
+  .banner-title{
+    font-weight: bold;
+    font-size: 45px;
+    /* display: block; */
+    /* justify-items: center;
+    align-items: center; */
+    text-align: center;
+
+}
+
+.banner{
+    border: 2px solid red;
+    height: 300px;
+    margin-top: 80px;
+}
