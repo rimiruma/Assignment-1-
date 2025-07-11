@@ -88,8 +88,6 @@
 .img-container{
   border: 2px solid blue;
   width: 37%;
-  /* border-radius: 10px; */
-  /* background-size: cover; */
 }
 
 .title-content{
@@ -106,21 +104,62 @@ section img{
 }
 
 /* user section styles here */
+.stats-section {
+  background: #eef0ff;
+  border-radius: 24px;
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 40px auto;
+  text-align: center;
+  box-shadow: 0 4px 24px rgba(60, 56, 255, 0.03);
+}
 
-.user-container{
+.stats-section h2 {
+  color: #23243c;
+  font-size: 2.2rem;
+  margin-bottom: 36px;
+  font-weight: 600;
+}
+
+.stats-row {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.stat {
+  min-width: 150px;
+}
+
+.stat-value {
+  display: block;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #4e59ff;
+}
+
+.stat-label {
+  display: block;
+  margin-top: 8px;
+  font-size: 1.1rem;
+  color: #63657e;
+}
+
+/* .user-container{
   border: 2px solid burlywood;
   max-width: 1100px;
   margin: 0 auto;
   height: 200px;
   margin-top: 30px;
   background-color: #4E47FF1A;
-}
-.user-title{
+} */
+/* .user-title{
 margin-left: 25%;
 margin-top: 10px;
-}
+} */
 
-.user-content{
+/* .user-content{
   width: 800px;
   margin: 0 auto;
   border: 2px solid seagreen;
@@ -128,17 +167,17 @@ margin-top: 10px;
   justify-content: space-between;
   align-items: center;
   margin-top: 20px;
-}
+} */
 
-.user-sub-content{
+/* .user-sub-content{
   width: 200px;
   height: 100px;
   border: 2px solid red;
   margin-top: 20px;
  
-}
+} */
 
-.user-sub-title{
+/* .user-sub-title{
   margin-top: 30px;
   font-size: 30px;
   color: #4E47FF;
@@ -147,7 +186,7 @@ margin-top: 10px;
 
 .sub-content{
   margin-top: 10px;
-}
+} */
 
 /* user feedback section style */
 
