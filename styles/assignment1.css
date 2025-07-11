@@ -21,6 +21,12 @@
     border-radius: 10px;
   }
 
+  button:hover {
+    background-color: red;
+    cursor: pointer;
+  }
+
+
   nav{
     display: flex;
     align-items: center;
